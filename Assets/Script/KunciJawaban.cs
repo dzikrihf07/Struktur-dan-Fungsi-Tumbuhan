@@ -13,7 +13,7 @@ public class KunciJawaban : MonoBehaviour
 
     public void jawaban(bool jawab) {
         if (jawab) {
-            int skor = PlayerPrefs.GetInt ("skor") + 20;
+            int skor = PlayerPrefs.GetInt ("skor") + 10;
             PlayerPrefs.SetInt ("skor", skor);
         } else {
             NyawaNgurang.nyawa -= 1;
