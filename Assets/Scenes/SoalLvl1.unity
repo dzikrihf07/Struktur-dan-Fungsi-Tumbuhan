@@ -284,7 +284,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1632429269}
   m_HandleRect: {fileID: 1632429268}
   m_Direction: 2
-  m_Value: 0.9999795
+  m_Value: 1
   m_Size: 0.9968214
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -495,6 +495,7 @@ GameObject:
   - component: {fileID: 45484229}
   - component: {fileID: 45484228}
   - component: {fileID: 45484231}
+  - component: {fileID: 45484232}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -659,6 +660,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &45484232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45484226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &62541249
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +686,7 @@ GameObject:
   - component: {fileID: 62541254}
   - component: {fileID: 62541253}
   - component: {fileID: 62541252}
+  - component: {fileID: 62541251}
   m_Layer: 5
   m_Name: btKembali
   m_TagString: Untagged
@@ -697,6 +713,20 @@ RectTransform:
   m_AnchoredPosition: {x: -68, y: -66.79999}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &62541251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62541249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
 --- !u!114 &62541252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,6 +833,7 @@ GameObject:
   - component: {fileID: 63173512}
   - component: {fileID: 63173511}
   - component: {fileID: 63173510}
+  - component: {fileID: 63173513}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -924,6 +955,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 63173508}
   m_CullTransparentMesh: 0
+--- !u!114 &63173513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63173508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
 --- !u!1 &94236686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,6 +1316,7 @@ GameObject:
   - component: {fileID: 138854140}
   - component: {fileID: 138854139}
   - component: {fileID: 138854138}
+  - component: {fileID: 138854142}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -1435,6 +1481,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138854136}
   m_CullTransparentMesh: 1
+--- !u!114 &138854142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138854136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &150229134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2064,7 @@ GameObject:
   - component: {fileID: 219408684}
   - component: {fileID: 219408683}
   - component: {fileID: 219408686}
+  - component: {fileID: 219408687}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -2168,6 +2229,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &219408687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219408681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &234066785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,6 +2958,7 @@ GameObject:
   - component: {fileID: 415608120}
   - component: {fileID: 415608119}
   - component: {fileID: 415608122}
+  - component: {fileID: 415608123}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -3047,6 +3123,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &415608123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415608117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &438076650
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,6 +3319,7 @@ GameObject:
   - component: {fileID: 458020584}
   - component: {fileID: 458020583}
   - component: {fileID: 458020586}
+  - component: {fileID: 458020587}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -3393,6 +3484,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &458020587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458020581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &466140264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,6 +3673,7 @@ GameObject:
   - component: {fileID: 481358646}
   - component: {fileID: 481358645}
   - component: {fileID: 481358644}
+  - component: {fileID: 481358648}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -3732,6 +3838,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481358642}
   m_CullTransparentMesh: 1
+--- !u!114 &481358648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481358642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &497337535
 GameObject:
   m_ObjectHideFlags: 0
@@ -4222,6 +4342,7 @@ GameObject:
   - component: {fileID: 577235380}
   - component: {fileID: 577235379}
   - component: {fileID: 577235382}
+  - component: {fileID: 577235383}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -4386,6 +4507,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &577235383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577235377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &581945492
 GameObject:
   m_ObjectHideFlags: 0
@@ -4551,6 +4686,7 @@ GameObject:
   - component: {fileID: 625687905}
   - component: {fileID: 625687904}
   - component: {fileID: 625687907}
+  - component: {fileID: 625687908}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -4715,6 +4851,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &625687908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625687902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &634772567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4895,6 +5045,7 @@ GameObject:
   - component: {fileID: 637248788}
   - component: {fileID: 637248787}
   - component: {fileID: 637248790}
+  - component: {fileID: 637248791}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -5059,6 +5210,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &637248791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637248785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &678088614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5534,6 +5699,7 @@ GameObject:
   - component: {fileID: 696398294}
   - component: {fileID: 696398293}
   - component: {fileID: 696398296}
+  - component: {fileID: 696398297}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -5698,6 +5864,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &696398297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696398291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &712873730
 GameObject:
   m_ObjectHideFlags: 0
@@ -6338,6 +6518,7 @@ GameObject:
   - component: {fileID: 773403385}
   - component: {fileID: 773403384}
   - component: {fileID: 773403383}
+  - component: {fileID: 773403387}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -6502,6 +6683,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773403381}
   m_CullTransparentMesh: 1
+--- !u!114 &773403387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773403381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &775943780
 GameObject:
   m_ObjectHideFlags: 0
@@ -6515,6 +6710,7 @@ GameObject:
   - component: {fileID: 775943783}
   - component: {fileID: 775943782}
   - component: {fileID: 775943785}
+  - component: {fileID: 775943786}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -6679,6 +6875,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &775943786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775943780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &792350917
 GameObject:
   m_ObjectHideFlags: 0
@@ -6831,6 +7041,133 @@ RectTransform:
   m_AnchoredPosition: {x: 523.15, y: -936.15}
   m_SizeDelta: {x: 1045.7, y: 1872.3}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &799665302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 799665304}
+  - component: {fileID: 799665303}
+  m_Layer: 0
+  m_Name: ButtonsAudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &799665303
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799665302}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &799665304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799665302}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815633284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6997,6 +7334,7 @@ GameObject:
   - component: {fileID: 832840648}
   - component: {fileID: 832840647}
   - component: {fileID: 832840646}
+  - component: {fileID: 832840649}
   m_Layer: 5
   m_Name: Keluar
   m_TagString: Untagged
@@ -7118,6 +7456,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832840644}
   m_CullTransparentMesh: 0
+--- !u!114 &832840649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832840644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
 --- !u!1 &842968171
 GameObject:
   m_ObjectHideFlags: 0
@@ -7210,6 +7562,7 @@ GameObject:
   - component: {fileID: 850959985}
   - component: {fileID: 850959984}
   - component: {fileID: 850959987}
+  - component: {fileID: 850959988}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -7374,6 +7727,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &850959988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850959982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &856346736
 GameObject:
   m_ObjectHideFlags: 0
@@ -7386,6 +7753,7 @@ GameObject:
   - component: {fileID: 856346740}
   - component: {fileID: 856346739}
   - component: {fileID: 856346738}
+  - component: {fileID: 856346741}
   m_Layer: 5
   m_Name: Keluar
   m_TagString: Untagged
@@ -7507,6 +7875,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856346736}
   m_CullTransparentMesh: 0
+--- !u!114 &856346741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856346736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
 --- !u!1 &880730327
 GameObject:
   m_ObjectHideFlags: 0
@@ -7676,6 +8058,7 @@ GameObject:
   - component: {fileID: 931016631}
   - component: {fileID: 931016630}
   - component: {fileID: 931016633}
+  - component: {fileID: 931016634}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -7757,7 +8140,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 795073554}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -7840,6 +8223,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &931016634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931016628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &967577289
 GameObject:
   m_ObjectHideFlags: 0
@@ -8500,6 +8897,7 @@ GameObject:
   - component: {fileID: 1056235670}
   - component: {fileID: 1056235669}
   - component: {fileID: 1056235672}
+  - component: {fileID: 1056235673}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -8664,6 +9062,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1056235673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056235667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1056726078
 GameObject:
   m_ObjectHideFlags: 0
@@ -8910,6 +9322,7 @@ GameObject:
   - component: {fileID: 1094995983}
   - component: {fileID: 1094995982}
   - component: {fileID: 1094995985}
+  - component: {fileID: 1094995986}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -9074,6 +9487,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1094995986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094995980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1096224029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9742,6 +10169,7 @@ GameObject:
   - component: {fileID: 1172550914}
   - component: {fileID: 1172550913}
   - component: {fileID: 1172550912}
+  - component: {fileID: 1172550915}
   m_Layer: 5
   m_Name: Restart
   m_TagString: Untagged
@@ -9863,6 +10291,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172550910}
   m_CullTransparentMesh: 0
+--- !u!114 &1172550915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172550910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
 --- !u!1 &1191713999
 GameObject:
   m_ObjectHideFlags: 0
@@ -9876,6 +10318,7 @@ GameObject:
   - component: {fileID: 1191714002}
   - component: {fileID: 1191714001}
   - component: {fileID: 1191714004}
+  - component: {fileID: 1191714005}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -10040,6 +10483,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1191714005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191713999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1206859758
 GameObject:
   m_ObjectHideFlags: 0
@@ -10339,6 +10796,7 @@ GameObject:
   - component: {fileID: 1253309116}
   - component: {fileID: 1253309115}
   - component: {fileID: 1253309118}
+  - component: {fileID: 1253309119}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -10503,6 +10961,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1253309119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253309113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1278724091
 GameObject:
   m_ObjectHideFlags: 0
@@ -11332,6 +11804,7 @@ GameObject:
   - component: {fileID: 1463879241}
   - component: {fileID: 1463879240}
   - component: {fileID: 1463879243}
+  - component: {fileID: 1463879244}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -11496,6 +11969,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1463879244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463879238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1468719175
 GameObject:
   m_ObjectHideFlags: 0
@@ -11738,6 +12225,7 @@ GameObject:
   - component: {fileID: 1532411069}
   - component: {fileID: 1532411068}
   - component: {fileID: 1532411071}
+  - component: {fileID: 1532411072}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -11902,6 +12390,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1532411072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532411066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1537757206
 GameObject:
   m_ObjectHideFlags: 0
@@ -12280,6 +12782,7 @@ GameObject:
   - component: {fileID: 1624925747}
   - component: {fileID: 1624925746}
   - component: {fileID: 1624925749}
+  - component: {fileID: 1624925750}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -12444,6 +12947,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1624925750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624925744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1626350446
 GameObject:
   m_ObjectHideFlags: 0
@@ -12607,6 +13124,7 @@ GameObject:
   - component: {fileID: 1642525750}
   - component: {fileID: 1642525749}
   - component: {fileID: 1642525752}
+  - component: {fileID: 1642525753}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -12771,6 +13289,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1642525753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642525747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1642675413
 GameObject:
   m_ObjectHideFlags: 0
@@ -12934,6 +13466,7 @@ GameObject:
   - component: {fileID: 1673251977}
   - component: {fileID: 1673251976}
   - component: {fileID: 1673251979}
+  - component: {fileID: 1673251980}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -13098,6 +13631,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1673251980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673251974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1673671278
 GameObject:
   m_ObjectHideFlags: 0
@@ -13502,6 +14049,7 @@ GameObject:
   - component: {fileID: 1807081845}
   - component: {fileID: 1807081844}
   - component: {fileID: 1807081847}
+  - component: {fileID: 1807081848}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -13666,6 +14214,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1807081848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807081842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1819152870
 GameObject:
   m_ObjectHideFlags: 0
@@ -13679,6 +14241,7 @@ GameObject:
   - component: {fileID: 1819152873}
   - component: {fileID: 1819152872}
   - component: {fileID: 1819152875}
+  - component: {fileID: 1819152876}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -13843,6 +14406,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1819152876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819152870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1831471813
 GameObject:
   m_ObjectHideFlags: 0
@@ -14629,6 +15206,7 @@ GameObject:
   - component: {fileID: 1918683531}
   - component: {fileID: 1918683530}
   - component: {fileID: 1918683533}
+  - component: {fileID: 1918683534}
   m_Layer: 5
   m_Name: JwbA
   m_TagString: Untagged
@@ -14793,6 +15371,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1918683534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918683528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1919099680
 GameObject:
   m_ObjectHideFlags: 0
@@ -14806,6 +15398,7 @@ GameObject:
   - component: {fileID: 1919099683}
   - component: {fileID: 1919099682}
   - component: {fileID: 1919099685}
+  - component: {fileID: 1919099686}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -14970,6 +15563,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1919099686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919099680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1944291053
 GameObject:
   m_ObjectHideFlags: 0
@@ -15139,6 +15746,7 @@ GameObject:
   - component: {fileID: 2002494008}
   - component: {fileID: 2002494007}
   - component: {fileID: 2002494010}
+  - component: {fileID: 2002494011}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -15303,6 +15911,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2002494011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002494005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &2003771458
 GameObject:
   m_ObjectHideFlags: 0
@@ -15396,6 +16018,7 @@ GameObject:
   - component: {fileID: 2007701555}
   - component: {fileID: 2007701554}
   - component: {fileID: 2007701557}
+  - component: {fileID: 2007701558}
   m_Layer: 5
   m_Name: JwbC
   m_TagString: Untagged
@@ -15560,6 +16183,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2007701558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007701552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &2031485350
 GameObject:
   m_ObjectHideFlags: 0
@@ -15648,6 +16285,7 @@ GameObject:
   - component: {fileID: 2035540234}
   - component: {fileID: 2035540233}
   - component: {fileID: 2035540236}
+  - component: {fileID: 2035540237}
   m_Layer: 5
   m_Name: JwbB
   m_TagString: Untagged
@@ -15812,6 +16450,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2035540237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035540231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 799665303}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &2040411678
 GameObject:
   m_ObjectHideFlags: 0
