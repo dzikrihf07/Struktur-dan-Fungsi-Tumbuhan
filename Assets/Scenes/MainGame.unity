@@ -204,6 +204,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2300410}
   m_CullTransparentMesh: 1
+--- !u!1 &7567792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7567793}
+  - component: {fileID: 7567795}
+  - component: {fileID: 7567794}
+  m_Layer: 5
+  m_Name: txtMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7567793
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4360636, y: 0.4360636, z: 0.4360636}
+  m_Children: []
+  m_Father: {fileID: 1843012098}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -80}
+  m_SizeDelta: {x: 968.7, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7567794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: ae122836fa7a7b443be2d125a49b74c3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: ae122836fa7a7b443be2d125a49b74c3, type: 3}
+    m_FontSize: 300
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Menu
+--- !u!222 &7567795
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567792}
+  m_CullTransparentMesh: 1
 --- !u!1 &9428861
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 16587311}
+  - component: {fileID: 16587312}
   m_Layer: 5
   m_Name: UIStart
   m_TagString: Untagged
@@ -531,6 +611,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &16587312
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16587310}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b06fd282d115584eba7ca4962ceea46, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &26483484
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 52439489}
+  - component: {fileID: 52439490}
   m_Layer: 5
   m_Name: mtBatang
   m_TagString: Untagged
@@ -892,6 +992,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &52439490
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52439488}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &53027220
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,8 +1045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.72, y: -1089.24}
-  m_SizeDelta: {x: 5600.4, y: 3645.26}
+  m_AnchoredPosition: {x: 0.72, y: -1812.7}
+  m_SizeDelta: {x: 5600.4, y: 15813.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53027222
 MonoBehaviour:
@@ -962,23 +1081,57 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1. Bunga sempurna
+  m_Text: 'Tangkai Bunga (pedicellus)
 
-    2. Kepala putik
+    Tangkai bunga merupakan bagian bunga yang
+    berada pada bagian bawah. Tangkai bunga inilah yang kerap kita jadikan sebagai
+    bagian bunga yang kita petik dari pohonnya. Sehingga tangkai bunga berfungsi
+    sebagai penopang dan penghubung antara tangkai dan juga ranting.
 
-    3. Tangkai putik
 
-    4. Tangkai
-    sari
+    Dasar
+    Bunga (receptacle)
 
-    5. Sumbu bunga
+    Dasar bunga adalah bagian bunga yang menjadi bagian dari
+    ujung tangkai bunga dan berfungsi sebagai tempat melekatnya mahkota bunga.
 
-    6. Artikulasi
 
-    7. Tangkai bunga
+    Kelopak
+    Bunga (Calyx)
 
-    8. Kelenjar
-    Nektar
+    Kelopak bunga berfungsi untuk melindungi bagian dalam bunga,
+    khususnya pada bunga yang masih kuncup.
+
+    
+
+    Mahkota Bunga (Corolla)
+
+    Mahkota
+    bunga terletak di bagian dalam kelopak bunga. Ukuran dari mahkota bunga biasanya
+    lebih besar dari kelopaknya dan mempunyai warna yang beraneka ragam. Warna yang
+    bervariasi tersebut berfungsi untuk menarik perhatian serangga.
+
+    
+
+    Benang
+    Sari
+
+    Benang sari adalah organ reproduksi jantan yang terletak di tengah
+    - tengah mahkota bunga. Di dalam sebuah bunga, benang sari tumbuh dari daun yang
+    mengalami modifikasi. Benang sari terdiri dari tangkai sari dan kepala sari.
+    Tangkai sarinya berfungsi sebagai penyokong kepala sari. Di dalam kotak sari
+    terdapat serbuk sari yang mengandung gamet jantan.
+
+    
+
+    Putik (Pistilium)
+
+    Putik
+    merupakan organ reproduksi betina yang dimiliki oleh tumbuhan yang terdapat pada
+    bagian pusat (tengah) bunga.
+
+    
+
 
 '
 --- !u!222 &53027223
@@ -1001,6 +1154,7 @@ GameObject:
   - component: {fileID: 54243804}
   - component: {fileID: 54243803}
   - component: {fileID: 54243802}
+  - component: {fileID: 54243805}
   m_Layer: 5
   m_Name: isiJaringanDaun
   m_TagString: Untagged
@@ -1097,6 +1251,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54243800}
   m_CullTransparentMesh: 1
+--- !u!95 &54243805
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54243800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &68311702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1344,165 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68311702}
+  m_CullTransparentMesh: 1
+--- !u!1 &72779824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72779825}
+  - component: {fileID: 72779829}
+  - component: {fileID: 72779828}
+  - component: {fileID: 72779827}
+  - component: {fileID: 72779826}
+  m_Layer: 5
+  m_Name: btKembali
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &72779825
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72779824}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.65698236, y: 0.65698236, z: 0.65698236}
+  m_Children: []
+  m_Father: {fileID: 1843012098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -68, y: -66.79999}
+  m_SizeDelta: {x: 160, y: 160}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &72779826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72779824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7d01bc933f27143a65ab22c43e8d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 205239214}
+  ClickSound: {fileID: 8300000, guid: 7efa4dc38a76f0f4e9212dd4cae3afa2, type: 3}
+--- !u!114 &72779827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72779824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 72779828}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 936357705}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 16587310}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &72779828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72779824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5ce1d76a6a320c0418e3b2519c0189c8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &72779829
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72779824}
   m_CullTransparentMesh: 1
 --- !u!1 &84946264
 GameObject:
@@ -1409,6 +1741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 108510869}
+  - component: {fileID: 108510870}
   m_Layer: 5
   m_Name: mtDaftarIsi
   m_TagString: Untagged
@@ -1436,6 +1769,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &108510870
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108510868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &120090695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,7 +1913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -161.22, y: -949}
+  m_AnchoredPosition: {x: -161.22, y: -981}
   m_SizeDelta: {x: 2339.92, y: 2437.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125327475
@@ -1687,8 +2039,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364.795, y: -951}
-  m_SizeDelta: {x: 729.59, y: 1902}
+  m_AnchoredPosition: {x: 364.795, y: -1766.45}
+  m_SizeDelta: {x: 729.59, y: 3532.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &141489312
 CanvasRenderer:
@@ -3268,8 +3620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.4, y: -685.06}
-  m_SizeDelta: {x: 5611.84, y: 2213.5}
+  m_AnchoredPosition: {x: 1.4, y: -700.87}
+  m_SizeDelta: {x: 5611.84, y: 2479.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224301427
 MonoBehaviour:
@@ -3304,9 +3656,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pada tumbuhan dikotil memiliki struktur peruratan menjala contohnya seperti
-    daun pepaya, sedangkan pada tumbuhan monokotil memiliki struktur daun sejajar
-    contohnya seperti daun jagung.
+  m_Text: Tumbuhan dikotil memiliki struktur peruratan menjala seperti daun pepaya
+    dan menjari seperti daun mangga, sedangkan pada tumbuhan monokotil memiliki struktur
+    daun sejajar seperti daun jagung dan melengkung seperti daun sirih.
 --- !u!222 &224301428
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3749,6 +4101,7 @@ GameObject:
   - component: {fileID: 252793486}
   - component: {fileID: 252793485}
   - component: {fileID: 252793484}
+  - component: {fileID: 252793487}
   m_Layer: 5
   m_Name: isiBatang
   m_TagString: Untagged
@@ -3845,6 +4198,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252793482}
   m_CullTransparentMesh: 1
+--- !u!95 &252793487
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252793482}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &258231664
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,6 +4324,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1843012095}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 732977073}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &258231667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4036,7 +4432,7 @@ RectTransform:
   m_Father: {fileID: 1616283294}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7878542}
+  m_AnchorMin: {x: 0, y: 0.62739795}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -4621,6 +5017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 297802969}
+  - component: {fileID: 297802970}
   m_Layer: 5
   m_Name: mtJaringanAkar
   m_TagString: Untagged
@@ -4648,6 +5045,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &297802970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297802968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &314455626
 GameObject:
   m_ObjectHideFlags: 0
@@ -4966,7 +5382,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2028607778}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.41101417
+  m_Size: 0.22127683
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5417,7 +5833,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1294814294}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.29477713
+  m_Size: 0.41770568
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5728,6 +6144,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1843012095}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 732977073}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &376590245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5877,7 +6317,7 @@ RectTransform:
   m_Father: {fileID: 94354143}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.79261756}
+  m_AnchorMin: {x: 0, y: 0.7061345}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -5932,6 +6372,7 @@ GameObject:
   - component: {fileID: 403688718}
   - component: {fileID: 403688717}
   - component: {fileID: 403688716}
+  - component: {fileID: 403688719}
   m_Layer: 5
   m_Name: isiAkar
   m_TagString: Untagged
@@ -6028,6 +6469,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403688714}
   m_CullTransparentMesh: 1
+--- !u!95 &403688719
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403688714}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &409694819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6152,7 +6612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.4, y: -1738}
+  m_AnchoredPosition: {x: 1.4, y: -1770}
   m_SizeDelta: {x: 5611.84, y: 1700.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429699771
@@ -6188,8 +6648,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Glukosa selanjutnya akan disusun menjadi zat amilum dalam pproses polimerisasi,
-    lalu di simpan pada buah. Oksigen akan dibuang keluar melalui daun.
+  m_Text: Glukosa selanjutnya akan disusun menjadi zat amilum dalam proses polimerisasi,
+    lalu di simpan pada jaringan tumbuhan. Oksigen akan dibuang keluar melalui daun.
 --- !u!222 &429699772
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6228,11 +6688,11 @@ RectTransform:
   m_LocalScale: {x: 0.11891059, y: 0.11891059, z: 0.11891059}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.4, y: -1407.769}
+  m_AnchoredPosition: {x: 1.4, y: -2899}
   m_SizeDelta: {x: 5611.84, y: 2386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441135058
@@ -6268,9 +6728,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pada tumbuhan monokotil memiliki daun kelopak, daun mahkota, benang sari
-    berkelipatan 3. Sedngkan pada tumbuhan dikotil memiliki bagian - bagian yang
-    berkelipatan 4 atau 5.
+  m_Text: Pada tumbuhan monokotil memiliki jumlah daun kelopak, daun mahkota, benang
+    sari berkelipatan 3. Sedangkan pada tumbuhan dikotil memiliki bagian - bagian
+    yang berkelipatan 4 atau 5.
 --- !u!222 &441135059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7002,7 +7462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jaringan korteks merupakan bagian dalam dari epidermis yang tersisin dari
+  m_Text: Jaringan korteks merupakan bagian dalam dari epidermis yang tersusun dari
     jaringan parenkim yang memiliki dinding sel tipis dan renggang. Jaringan ini
     berfungsi untuk penyimpanan cadangan makanan.
 --- !u!222 &480551705
@@ -7464,7 +7924,7 @@ RectTransform:
   m_LocalScale: {x: 2.7505152, y: 2.7505152, z: 2.7505152}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -8115,6 +8575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 540392909}
+  - component: {fileID: 540392910}
   m_Layer: 5
   m_Name: mtTeknologi
   m_TagString: Untagged
@@ -8142,6 +8603,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &540392910
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540392908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &546314820
 GameObject:
   m_ObjectHideFlags: 0
@@ -8226,6 +8706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 559208639}
+  - component: {fileID: 559208640}
   m_Layer: 5
   m_Name: mtBunga
   m_TagString: Untagged
@@ -8253,6 +8734,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &559208640
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559208638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &572940895
 GameObject:
   m_ObjectHideFlags: 0
@@ -8549,6 +9049,7 @@ GameObject:
   - component: {fileID: 602858584}
   - component: {fileID: 602858583}
   - component: {fileID: 602858582}
+  - component: {fileID: 602858585}
   m_Layer: 5
   m_Name: isiJaringanBatang
   m_TagString: Untagged
@@ -8645,6 +9146,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602858580}
   m_CullTransparentMesh: 1
+--- !u!95 &602858585
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602858580}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &616111803
 GameObject:
   m_ObjectHideFlags: 0
@@ -8886,7 +9406,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 259091915}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.21214584
+  m_Size: 0.37260205
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10259,7 +10779,7 @@ MonoBehaviour:
     dan Organ generatif.
 
 
-    Organ Generatif berfungsi untuk mendukung pertumbuhan
+    Organ Vegetatif berfungsi untuk mendukung pertumbuhan
     dan perkembangan tumbuhan seperti penyerapan pengolahan, pengangkutan, dan penimbunan
     zat - zat makanan. Contoh: Akar, Batang, Daun.
 
@@ -10286,6 +10806,7 @@ GameObject:
   - component: {fileID: 732977074}
   - component: {fileID: 732977076}
   - component: {fileID: 732977075}
+  - component: {fileID: 732977077}
   m_Layer: 5
   m_Name: bgKayu
   m_TagString: Untagged
@@ -10352,6 +10873,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732977073}
   m_CullTransparentMesh: 1
+--- !u!95 &732977077
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732977073}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7973bc265a8c9c9488bb3287ca76fb4f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &746991752
 GameObject:
   m_ObjectHideFlags: 0
@@ -10422,11 +10962,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Akar tersusun atas jaringan epidermis dan silinder. Sel - sel epidermis
-    inilah penyebabnya karna memiliki dinding yang tipis, sehingga air mudah untuk
-    masuk. Setelah air masuk maka akan di teruskan ke korteks dan silinder pusat.
-    Ada beberapa bagian epidermis yang memiliki modifikasi seperti rambut akan yang
-    berguna untuk proses penyerapan air.
+  m_Text: Karena terdapat sel epidermis yang memiliki dinding tipis, sehingga air
+    mudah untuk masuk. Setelah air masuk maka akan di teruskan ke korteks dan silinder
+    pusat. Ada beberapa bagian epidermis yang memiliki modifikasi seperti rambut
+    akan yang berguna untuk proses penyerapan air.
 --- !u!222 &746991755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10660,8 +11199,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1099604806}
   m_HandleRect: {fileID: 1099604805}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.41344875
+  m_Value: 1.0000001
+  m_Size: 0.58586603
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -11058,17 +11597,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '1. Bentuk dan ukuran selnya sama
 
-    2. Dinding selnya tipis
+    2. Isi sel tidak mengandung zat
+    makanan
 
-    3.
-    Sel penuh dengan protoplasma
-
-    4. Isi sel tidak mengandung zat makanan
-
-    5.
-    Sel muda dan belum mengalami diferensiasi dan spesialisasi, berdinding tipis,
-    protoplasma banyak, vakuola kecil, inti besar, plastida belum matang dan berbentuk
-    sama ke segala arah.'
+    3. Sel muda dan belum mengalami diferensiasi dan spesialisasi, berdinding
+    tipis, sitoplasma banyak, vakuola kecil, inti besar, plastida belum matang dan
+    berbentuk sama ke segala arah.'
 --- !u!222 &796516630
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11570,6 +12104,7 @@ GameObject:
   - component: {fileID: 866050652}
   - component: {fileID: 866050651}
   - component: {fileID: 866050650}
+  - component: {fileID: 866050653}
   m_Layer: 5
   m_Name: isiJaringanAkar
   m_TagString: Untagged
@@ -11666,6 +12201,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866050648}
   m_CullTransparentMesh: 1
+--- !u!95 &866050653
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866050648}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &867076134
 GameObject:
   m_ObjectHideFlags: 0
@@ -11790,7 +12344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1.4, y: -1305.5502}
+  m_AnchoredPosition: {x: 1.4, y: -1337.5502}
   m_SizeDelta: {x: 5611.84, y: 1700.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871133625
@@ -11827,7 +12381,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Proses fotosintesis membutuhkan cahaya sebagai sumber energi yang telah
-    ditangkap oleh klrofil. Karbon dioksida dan air digunakan untuk bahan pembuatan
+    ditangkap oleh klorofil. Karbon dioksida dan air digunakan untuk bahan pembuatan
     glukosa dan oksigen.
 --- !u!222 &871133626
 CanvasRenderer:
@@ -12494,6 +13048,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 732977074}
+  - {fileID: 1843012098}
   - {fileID: 1731946870}
   m_Father: {fileID: 975380580}
   m_RootOrder: 2
@@ -13107,6 +13662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 969399062}
+  - component: {fileID: 969399063}
   m_Layer: 5
   m_Name: mtDaun
   m_TagString: Untagged
@@ -13134,6 +13690,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &969399063
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969399061}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &975380576
 GameObject:
   m_ObjectHideFlags: 0
@@ -14081,7 +14656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -5, y: -1508.0001}
+  m_AnchoredPosition: {x: -5, y: -1540.0001}
   m_SizeDelta: {x: 3000.0002, y: 1000.4884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051405167
@@ -14209,6 +14784,7 @@ GameObject:
   - component: {fileID: 1060277318}
   - component: {fileID: 1060277317}
   - component: {fileID: 1060277316}
+  - component: {fileID: 1060277319}
   m_Layer: 5
   m_Name: isiDaftarIsi
   m_TagString: Untagged
@@ -14305,6 +14881,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060277314}
   m_CullTransparentMesh: 1
+--- !u!95 &1060277319
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060277314}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1064250621
 GameObject:
   m_ObjectHideFlags: 0
@@ -14492,7 +15087,6 @@ RectTransform:
   - {fileID: 1098897970}
   - {fileID: 2099952944}
   - {fileID: 53027221}
-  - {fileID: 1085052299}
   - {fileID: 441135057}
   - {fileID: 1395011061}
   - {fileID: 1407937959}
@@ -14854,101 +15448,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1083260943}
   m_CullTransparentMesh: 1
---- !u!1 &1085052298
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1085052299}
-  - component: {fileID: 1085052301}
-  - component: {fileID: 1085052300}
-  m_Layer: 5
-  m_Name: txt4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1085052299
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085052298}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.11891059, y: 0.11891059, z: 0.11891059}
-  m_Children: []
-  m_Father: {fileID: 1067269225}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 174.34, y: -1089.24}
-  m_SizeDelta: {x: 2680.25, y: 3645.26}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1085052300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085052298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 300
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '9. Benang sari
-
-    10. Bakal buah
-
-    11. Bakal biji
-
-    12. Serbuk
-    sari
-
-    13. Kepala sari
-
-    14. Perhiasan bunga
-
-    15. Mahkota bunga
-
-    16.
-    Kelopak bunga'
---- !u!222 &1085052301
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085052298}
-  m_CullTransparentMesh: 1
 --- !u!1 &1085227476
 GameObject:
   m_ObjectHideFlags: 0
@@ -15263,6 +15762,7 @@ GameObject:
   - component: {fileID: 1095088222}
   - component: {fileID: 1095088221}
   - component: {fileID: 1095088220}
+  - component: {fileID: 1095088223}
   m_Layer: 5
   m_Name: isiMeristem
   m_TagString: Untagged
@@ -15359,6 +15859,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095088218}
   m_CullTransparentMesh: 1
+--- !u!95 &1095088223
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095088218}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1098897969
 GameObject:
   m_ObjectHideFlags: 0
@@ -15393,7 +15912,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -131.03998, y: -199.95}
+  m_AnchoredPosition: {x: -131.03998, y: -199.95001}
   m_SizeDelta: {x: 3384.33, y: 2463.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1098897971
@@ -15429,7 +15948,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bunga memiliki warna yang menarin dan berfungsi sebagai alat reproduksi
+  m_Text: Bunga memiliki warna yang menarik dan berfungsi sebagai alat reproduksi
     generatif pada tumbuhan.
 --- !u!222 &1098897972
 CanvasRenderer:
@@ -15471,7 +15990,7 @@ RectTransform:
   m_Father: {fileID: 1270807131}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.58655125}
+  m_AnchorMin: {x: 0, y: 0.41413397}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -15695,6 +16214,7 @@ GameObject:
   - component: {fileID: 1113286801}
   - component: {fileID: 1113286800}
   - component: {fileID: 1113286799}
+  - component: {fileID: 1113286802}
   m_Layer: 5
   m_Name: isiPengantar
   m_TagString: Untagged
@@ -15791,6 +16311,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113286797}
   m_CullTransparentMesh: 1
+--- !u!95 &1113286802
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113286797}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1124747191
 GameObject:
   m_ObjectHideFlags: 0
@@ -15951,7 +16490,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 31, y: -1682}
+  m_AnchoredPosition: {x: 31, y: -1851}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128045948
@@ -16365,6 +16904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137860319}
+  - component: {fileID: 1137860320}
   m_Layer: 5
   m_Name: mtDewasa
   m_TagString: Untagged
@@ -16392,6 +16932,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1137860320
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137860318}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1161370797
 GameObject:
   m_ObjectHideFlags: 0
@@ -16640,7 +17199,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1258738610}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.13540295
+  m_Size: 0.19186896
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17010,6 +17569,7 @@ GameObject:
   - component: {fileID: 1193823265}
   - component: {fileID: 1193823264}
   - component: {fileID: 1193823263}
+  - component: {fileID: 1193823266}
   m_Layer: 5
   m_Name: isiDewasa
   m_TagString: Untagged
@@ -17106,6 +17666,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193823261}
   m_CullTransparentMesh: 1
+--- !u!95 &1193823266
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193823261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1193925835
 GameObject:
   m_ObjectHideFlags: 0
@@ -17214,7 +17793,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Jaringan meristem (jaringan embrional) merupakan jaringan yang sel - selnya
     aktif membelah diri secara mitosis dan menyebabkan tumbuhan mengalami peningkatan
-    volume dan tinggi.
+    volume dan tinggi (pertumbuhan).
 --- !u!222 &1206009868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17232,6 +17811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1213539401}
+  - component: {fileID: 1213539402}
   m_Layer: 5
   m_Name: mtMeristem
   m_TagString: Untagged
@@ -17259,6 +17839,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1213539402
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213539400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1218496770
 GameObject:
   m_ObjectHideFlags: 0
@@ -17592,7 +18191,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 392336920}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.20738246
+  m_Size: 0.2938655
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17667,7 +18266,7 @@ RectTransform:
   m_Father: {fileID: 185425630}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8645971}
+  m_AnchorMin: {x: 0, y: 0.80813104}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -18139,7 +18738,7 @@ RectTransform:
   m_Father: {fileID: 1965301322}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.51268613}
+  m_AnchorMin: {x: 0, y: 0.5126861}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -18264,8 +18863,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1286477601}
   m_HandleRect: {fileID: 1286477600}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.48731387
+  m_Value: 1.0000001
+  m_Size: 0.48731393
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18421,7 +19020,7 @@ RectTransform:
   m_Father: {fileID: 330781613}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.70522285}
+  m_AnchorMin: {x: 0, y: 0.58229434}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -18598,6 +19197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1336078183}
+  - component: {fileID: 1336078184}
   m_Layer: 5
   m_Name: mtJaringanBatang
   m_TagString: Untagged
@@ -18625,6 +19225,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1336078184
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336078182}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1336637567
 GameObject:
   m_ObjectHideFlags: 0
@@ -19109,8 +19728,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pada umumnya daun memiliki ciri - ciri berwarna hijau (Zar Klorofil) dan
-    berbentuk tipis melebar.
+  m_Text: Umumnya daun memiliki ciri - ciri berwarna hijau (Zar Klorofil) dan berbentuk
+    tipis melebar.
 --- !u!222 &1347085974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19149,7 +19768,7 @@ RectTransform:
   m_LocalScale: {x: 0.6909803, y: 0.6909803, z: 0.6909803}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -19224,11 +19843,11 @@ RectTransform:
   m_LocalScale: {x: 2.7505152, y: 2.7505152, z: 2.7505152}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 160, y: -1647.4099}
+  m_AnchoredPosition: {x: 160, y: -3138.6406}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370368617
@@ -19278,6 +19897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1378923283}
+  - component: {fileID: 1378923284}
   m_Layer: 5
   m_Name: mtPengantar
   m_TagString: Untagged
@@ -19305,6 +19925,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1378923284
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378923282}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1381668439
 GameObject:
   m_ObjectHideFlags: 0
@@ -19528,11 +20167,11 @@ RectTransform:
   m_LocalScale: {x: 0.11891059, y: 0.11891059, z: 0.11891059}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 161.22, y: -1666}
+  m_AnchoredPosition: {x: 161.22, y: -3157.231}
   m_SizeDelta: {x: 2339.92, y: 2437.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1395011062
@@ -19611,7 +20250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.58, y: -186.45}
+  m_AnchoredPosition: {x: -0.58, y: -186.44995}
   m_SizeDelta: {x: 5578.59, y: 2778.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1403912358
@@ -19779,11 +20418,11 @@ RectTransform:
   m_LocalScale: {x: 0.11891059, y: 0.11891059, z: 0.11891059}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -161.22, y: -1666}
+  m_AnchoredPosition: {x: -161.22, y: -3157.231}
   m_SizeDelta: {x: 2339.92, y: 2437.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407937960
@@ -19952,7 +20591,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -53.999985, y: -1165.0001}
+  m_AnchoredPosition: {x: -53.999985, y: -1197.0001}
   m_SizeDelta: {x: 3575.21, y: 395.83997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429229223
@@ -20888,7 +21527,7 @@ RectTransform:
   m_Father: {fileID: 201339319}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.6134931}
+  m_AnchorMin: {x: 0, y: 0.4523111}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -21174,7 +21813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 160, y: -930.4099}
+  m_AnchoredPosition: {x: 160, y: -962.4099}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1567051078
@@ -21507,6 +22146,7 @@ GameObject:
   - component: {fileID: 1579161677}
   - component: {fileID: 1579161676}
   - component: {fileID: 1579161675}
+  - component: {fileID: 1579161678}
   m_Layer: 5
   m_Name: isiBunga
   m_TagString: Untagged
@@ -21603,6 +22243,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579161673}
   m_CullTransparentMesh: 1
+--- !u!95 &1579161678
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579161673}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1582792752
 GameObject:
   m_ObjectHideFlags: 0
@@ -21933,6 +22592,7 @@ GameObject:
   - component: {fileID: 1596274421}
   - component: {fileID: 1596274420}
   - component: {fileID: 1596274419}
+  - component: {fileID: 1596274422}
   m_Layer: 5
   m_Name: isiBuah
   m_TagString: Untagged
@@ -22029,6 +22689,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596274417}
   m_CullTransparentMesh: 1
+--- !u!95 &1596274422
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596274417}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1616283293
 GameObject:
   m_ObjectHideFlags: 0
@@ -22119,6 +22798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1631654196}
+  - component: {fileID: 1631654197}
   m_Layer: 5
   m_Name: mtBuah
   m_TagString: Untagged
@@ -22146,6 +22826,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1631654197
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631654195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1633382320
 GameObject:
   m_ObjectHideFlags: 0
@@ -22510,7 +23209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -160, y: -930.4099}
+  m_AnchoredPosition: {x: -160, y: -962.4099}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1668259278
@@ -22585,8 +23284,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364.795, y: -970.20966}
-  m_SizeDelta: {x: 729.59, y: 1940.42}
+  m_AnchoredPosition: {x: 364.795, y: -1049.0409}
+  m_SizeDelta: {x: 729.59, y: 2098.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1668977309
 CanvasRenderer:
@@ -23067,6 +23766,7 @@ GameObject:
   - component: {fileID: 1731946870}
   - component: {fileID: 1731946872}
   - component: {fileID: 1731946871}
+  - component: {fileID: 1731946873}
   m_Layer: 5
   m_Name: bgKayuMenu
   m_TagString: Untagged
@@ -23088,7 +23788,7 @@ RectTransform:
   - {fileID: 1526643605}
   - {fileID: 1494293934}
   m_Father: {fileID: 936357706}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -23133,6 +23833,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731946869}
   m_CullTransparentMesh: 1
+--- !u!95 &1731946873
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731946869}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 10b1c23ed12e5834eb5bd92ee4b72d29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1740397490
 GameObject:
   m_ObjectHideFlags: 0
@@ -23387,6 +24106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1754015804}
+  - component: {fileID: 1754015805}
   m_Layer: 5
   m_Name: mtAkar
   m_TagString: Untagged
@@ -23414,6 +24134,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1754015805
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754015803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1754039133
 GameObject:
   m_ObjectHideFlags: 0
@@ -24331,11 +25070,11 @@ RectTransform:
   m_LocalScale: {x: 2.7505152, y: 2.7505152, z: 2.7505152}
   m_Children: []
   m_Father: {fileID: 1067269225}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -160, y: -1647.4099}
+  m_AnchoredPosition: {x: -160, y: -3138.6406}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780518282
@@ -24463,6 +25202,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1787626920}
+  - component: {fileID: 1787626921}
   m_Layer: 5
   m_Name: mtJaringanDaun
   m_TagString: Untagged
@@ -24490,6 +25230,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1787626921
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787626919}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05671e25068e8d44fb69fc657598e2a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1804353206
 GameObject:
   m_ObjectHideFlags: 0
@@ -24603,7 +25362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 161.22, y: -949}
+  m_AnchoredPosition: {x: 161.22, y: -981}
   m_SizeDelta: {x: 2339.92, y: 2437.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808244192
@@ -24883,12 +25642,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dalam nakal buah (Ovarium) terdapat bakal biji (Ovul) dan di dalam bakal
-    biji terdapat suatu embrio yang merupakan calon individu baru. Embrio yang berada
-    dalam bakal biji terdiri dari akar lembaga, daun lembaga, dan batang lembaga.
-    Bakal biji merupakan bagian dimana terjadinya pembuahan yang berkembang menjadi
-    biji, fungsi bakal biji disini adalah sebagai tempat pertemuan sel-sel telur
-    yang dibuahi oleh serbuk sari (berisi sel sperma) melalui proses penyerbukan.
+  m_Text: Dalam bakal buah (Ovarium) terdapat bakal biji (Ovul) dan di dalam bakal
+    biji terdapat embrio yang merupakan calon individu baru. Embrio yang berada dalam
+    bakal biji terdiri dari akar lembaga, daun lembaga, dan batang lembaga. Bakal
+    biji merupakan bagian dimana terjadinya pembuahan yang berkembang menjadi biji,
+    fungsi bakal biji disini adalah sebagai tempat pertemuan sel-sel telur yang dibuahi
+    oleh serbuk sari (berisi sel sperma) melalui proses penyerbukan.
 --- !u!222 &1813130691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24975,6 +25734,83 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
+--- !u!1 &1843012095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1843012098}
+  - component: {fileID: 1843012097}
+  - component: {fileID: 1843012096}
+  m_Layer: 5
+  m_Name: bgKayu (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1843012096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843012095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6d029759cfc2ddc43b4d5f5761ccca70, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1843012097
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843012095}
+  m_CullTransparentMesh: 1
+--- !u!224 &1843012098
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843012095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 72779825}
+  - {fileID: 7567793}
+  m_Father: {fileID: 936357706}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.0029296875, y: -80}
+  m_SizeDelta: {x: 0.0050049, y: 160}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1843650893
 GameObject:
   m_ObjectHideFlags: 0
@@ -25647,7 +26483,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 3684.96}
+  m_SizeDelta: {x: 0, y: 2098.08}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1903724957
 MonoBehaviour:
@@ -27142,7 +27978,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1902}
+  m_SizeDelta: {x: 0, y: 3532.9}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2027229182
 MonoBehaviour:
@@ -27216,7 +28052,7 @@ RectTransform:
   m_Father: {fileID: 1193925836}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5889858}
+  m_AnchorMin: {x: 0, y: 0.7787232}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -27271,6 +28107,7 @@ GameObject:
   - component: {fileID: 2039201156}
   - component: {fileID: 2039201155}
   - component: {fileID: 2039201154}
+  - component: {fileID: 2039201157}
   m_Layer: 5
   m_Name: isiDaun
   m_TagString: Untagged
@@ -27367,6 +28204,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039201152}
   m_CullTransparentMesh: 1
+--- !u!95 &2039201157
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039201152}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2049137475
 GameObject:
   m_ObjectHideFlags: 0
@@ -27528,8 +28384,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1545580754}
   m_HandleRect: {fileID: 1545580753}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.38650692
+  m_Value: 1.0000001
+  m_Size: 0.5476889
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -27642,11 +28498,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mekanisme kerja alat pemurnian air terinspirasi oleh Perairan yang ditumbuhi
-    eceng gondok (Eichorria crassipes) kondisi airnya jernih. Hal ini karena akar
-    eceng gondok berbentuk serabut \u2013 serabut yang rapat dan mampu menyerap partikel
-    \u2013 partikel yang terlarut dalam air sehingga air menjadi bersih. Zat \u2013
-    zat beracun pun dapat diserap oleh eceng gondok. Apabila sel akar diamati dengan
+  m_Text: "Mekanisme kerja alat pemurnian air terinspirasi oleh Perairan kotor yang
+    ditumbuhi eceng gondok (Eichorria crassipes). Hal ini karena akar eceng gondok
+    berbentuk serabut \u2013 serabut yang rapat dan mampu menyerap partikel \u2013
+    partikel yang terlarut dalam air sehingga air menjadi bersih. Zat \u2013 zat
+    beracun pun dapat diserap oleh eceng gondok. Apabila sel akar diamati dengan
     mikroskop, maka akan terlihat lubang \u2013 lubang atau saluran kecil pada membran
     sel akar. Saluran ini terbentuk dari protein dan memiliki lubang dengan ukuran
     dan daya ikat tertentu. Salah satu salurannya yaitu aquaporin. \n\nMekanisme
@@ -27730,7 +28586,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tumbuhan berperan pending dalam menyediakan oksigen, karbohidrat, lemak,
+  m_Text: Tumbuhan berperan penting dalam menyediakan oksigen, karbohidrat, lemak,
     vitamin, dan mineral bagi manusia dan hewan yang ada di bumi.
 --- !u!222 &2078794398
 CanvasRenderer:
@@ -27752,6 +28608,7 @@ GameObject:
   - component: {fileID: 2082191033}
   - component: {fileID: 2082191032}
   - component: {fileID: 2082191031}
+  - component: {fileID: 2082191034}
   m_Layer: 5
   m_Name: isiTeknologi
   m_TagString: Untagged
@@ -27848,6 +28705,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082191029}
   m_CullTransparentMesh: 1
+--- !u!95 &2082191034
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082191029}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48b356a743dc8ec44be0fb28acc1ae26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2083218303
 GameObject:
   m_ObjectHideFlags: 0
@@ -27921,7 +28797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -53.999985, y: -370.22995}
+  m_AnchoredPosition: {x: -53.999985, y: -370.22998}
   m_SizeDelta: {x: 3575.21, y: 395.83997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2099952945
