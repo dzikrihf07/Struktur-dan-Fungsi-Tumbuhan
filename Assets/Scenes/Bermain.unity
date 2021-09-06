@@ -767,8 +767,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 834235204}
-        m_TargetAssemblyTypeName: KeSceneLvl1, Assembly-CSharp
+      - m_Target: {fileID: 834235211}
+        m_TargetAssemblyTypeName: KeSceneLvl2, Assembly-CSharp
         m_MethodName: btPindah
         m_Mode: 1
         m_Arguments:
