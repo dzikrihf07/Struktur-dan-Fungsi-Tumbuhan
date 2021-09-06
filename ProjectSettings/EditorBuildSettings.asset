@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SoalLvl1.unity
     guid: 7d0fac42b7acf5941ac588f1f7e81d7e
+  - enabled: 1
+    path: Assets/Scenes/SoalLvl2.unity
+    guid: 9f0599e36583a0b45bb7a682c8b28b85
   m_configObjects: {}

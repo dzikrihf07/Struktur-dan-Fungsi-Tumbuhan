@@ -393,6 +393,7 @@ GameObject:
   - component: {fileID: 834235205}
   - component: {fileID: 834235204}
   - component: {fileID: 834235210}
+  - component: {fileID: 834235211}
   m_Layer: 0
   m_Name: EventSystem (1)
   m_TagString: Untagged
@@ -494,6 +495,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79a3d1899a7d5f54a8666d57bf4de5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &834235211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834235203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c198fa22c784864fb7f3283768f6478, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &879271399
@@ -753,7 +766,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222688150}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 834235204}
+        m_TargetAssemblyTypeName: KeSceneLvl1, Assembly-CSharp
+        m_MethodName: btPindah
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1222688150
 MonoBehaviour:
   m_ObjectHideFlags: 0

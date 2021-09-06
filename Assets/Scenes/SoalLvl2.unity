@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 248
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -193,7 +193,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Teknologi yg terinspirasi dari proses fotosintesis pada daun adalah ?
+  m_Text: 'Jaringan ini tersusun atas 1 lapis sel yang membatasi korteks dengan silinder
+
+    dan
+    merupakan lapisan
+
+    terdalam korteks adalah ?'
 --- !u!222 &7030755
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -387,7 +392,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 246
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -398,7 +403,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dikotil
+  m_Text: Bunga Karang
 --- !u!222 &12034573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -516,7 +521,7 @@ RectTransform:
   m_Children:
   - {fileID: 1167953447}
   m_Father: {fileID: 165658708}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1191,81 +1196,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &126053035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 126053036}
-  - component: {fileID: 126053038}
-  - component: {fileID: 126053037}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &126053036
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126053035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5597491, y: 0.5597491, z: 0.5597491}
-  m_Children: []
-  m_Father: {fileID: 165658708}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 669}
-  m_SizeDelta: {x: 999.99994, y: 999.99994}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &126053037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126053035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 68a1b0c11de2d3d4d97d82be0d5d81ed, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &126053038
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126053035}
-  m_CullTransparentMesh: 1
 --- !u!1 &128686479
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,7 +1263,7 @@ RectTransform:
   m_LocalScale: {x: 1.131165, y: 1.131165, z: 1.131165}
   m_Children: []
   m_Father: {fileID: 158578954}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1412,7 +1342,7 @@ RectTransform:
   m_Children:
   - {fileID: 1853835972}
   m_Father: {fileID: 158578954}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1492,7 +1422,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 158578953}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -1569,7 +1499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &150229134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,6 +1621,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1774581204}
   - {fileID: 682663941}
   - {fileID: 130777079}
   - {fileID: 2031485351}
@@ -1881,7 +1812,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2003771459}
-  - {fileID: 126053036}
   - {fileID: 678088615}
   - {fileID: 1206859759}
   - {fileID: 1654488111}
@@ -2222,7 +2152,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 252357077}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -2318,7 +2248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &234066785
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,7 +2394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vegetatif
+  m_Text: Jaringan Meristem
 --- !u!222 &237576161
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2532,7 +2462,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 188
+    m_FontSize: 227
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2543,7 +2473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Konservatif
+  m_Text: Jaringan Dewasa
 --- !u!222 &244502128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2626,7 +2556,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 523.15, y: -2808.4502}
+  m_AnchoredPosition: {x: 523.15, y: -936.15}
   m_SizeDelta: {x: 1045.7, y: 1872.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &258010379
@@ -2688,7 +2618,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 230
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2699,7 +2629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Floem
+  m_Text: Meristem Apikal
 --- !u!222 &258010382
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2767,7 +2697,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 221
+    m_FontSize: 230
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2778,7 +2708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vegetatif
+  m_Text: Mahkota Bunga
 --- !u!222 &272963021
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2921,7 +2851,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 268
+    m_FontSize: 245
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2932,7 +2862,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mesofil
+  m_Text: Jaringan Mesofil
 --- !u!222 &352381440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3000,7 +2930,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 290
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -3011,8 +2941,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lapisan pengilap cat mobil terinspirasi dari lapisan pelindung pada daun
-    yang disebut ?
+  m_Text: 'Berkas pengangkut pada batang
+
+    tumbuhan monokotil susunannya adalah
+    ?'
 --- !u!222 &405018438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3362,7 +3294,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 229
+    m_FontSize: 258
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -3373,7 +3305,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stomata
+  m_Text: Sejajar
 --- !u!222 &443729701
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3477,7 +3409,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 565592840}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -3573,7 +3505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &466140264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,7 +3702,7 @@ RectTransform:
   m_Children:
   - {fileID: 1916745155}
   m_Father: {fileID: 158578954}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3850,7 +3782,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 158578953}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -3927,7 +3859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &497337535
 GameObject:
   m_ObjectHideFlags: 0
@@ -4176,7 +4108,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 216
+    m_FontSize: 249
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -4187,7 +4119,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Generatif
+  m_Text: Benang Sari
 --- !u!222 &502225254
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4439,7 +4371,7 @@ RectTransform:
   m_Children:
   - {fileID: 815633285}
   m_Father: {fileID: 733582473}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4749,6 +4681,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601059822}
   m_CullTransparentMesh: 1
+--- !u!1 &606944192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 606944193}
+  - component: {fileID: 606944195}
+  - component: {fileID: 606944194}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &606944193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606944192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8535, y: 0.8535, z: 0.8535}
+  m_Children: []
+  m_Father: {fileID: 733582473}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 672}
+  m_SizeDelta: {x: 999.99994, y: 999.99994}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &606944194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606944192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 187233cc1f1bd7a4eaff442259ef9715, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &606944195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606944192}
+  m_CullTransparentMesh: 1
 --- !u!1 &625687902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,7 +4851,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 497337535}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -4940,7 +4947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &634772567
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,7 +5337,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 165658708}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5405,11 +5412,11 @@ RectTransform:
   m_LocalScale: {x: 0.36637616, y: 0.36637616, z: 0.36637616}
   m_Children: []
   m_Father: {fileID: 158578954}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0038013, y: -366.5}
+  m_AnchoredPosition: {x: 0.0038013, y: -637}
   m_SizeDelta: {x: 2865.6, y: 2100.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &682663942
@@ -5434,7 +5441,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 235
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -5445,7 +5452,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sekumpulan sel yang memiliki bentuk dan fungsi yang sama disebut ?
+  m_Text: Nomor 1 menunjukkan jaringan ?
 --- !u!222 &682663943
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5599,7 +5606,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Gantung
+  m_Text: Kutikula
 --- !u!222 &686506965
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5857,7 +5864,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 252357077}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -5953,7 +5960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &712873730
 GameObject:
   m_ObjectHideFlags: 0
@@ -6024,7 +6031,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bakal Buah
+  m_Text: Silinder Pusat
 --- !u!222 &712873733
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6103,7 +6110,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cikal bakal dari buah disebut ?
+  m_Text: Epidermis pada durian dapat berdiferensasi menjadi ?
 --- !u!222 &718987558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6249,6 +6256,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 606944193}
   - {fileID: 1252338249}
   - {fileID: 1831471814}
   - {fileID: 1558976058}
@@ -6615,7 +6623,7 @@ RectTransform:
   m_Children:
   - {fileID: 1000129189}
   m_Father: {fileID: 158578954}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -6807,7 +6815,7 @@ RectTransform:
   m_Children:
   - {fileID: 967577290}
   m_Father: {fileID: 733582473}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7303,7 +7311,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 249
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -7314,7 +7322,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4
+  m_Text: Stomata
 --- !u!222 &815633287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7616,7 +7624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Serabut
+  m_Text: Mesofil
 --- !u!222 &842968174
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7720,7 +7728,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1881157401}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -7816,7 +7824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 201dcca7885447d4e827da243c767465, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &856346736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8035,9 +8043,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Akar, batang, dan daun termasuk dalam
-
-    organ ?'
+  m_Text: "Organ reproduksi\n jantan pada bunga adalah ?"
 --- !u!222 &880730330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8383,7 +8389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: Xilem
 --- !u!222 &967577292
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8462,7 +8468,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sel
+  m_Text: Mesofil
 --- !u!222 &1000129191
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9055,7 +9061,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 565592840}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -9151,7 +9157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1056726078
 GameObject:
   m_ObjectHideFlags: 0
@@ -9211,7 +9217,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 217
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -9222,7 +9228,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TV
+  m_Text: Epidermis
 --- !u!222 &1056726081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9480,7 +9486,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 545616745}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -9576,7 +9582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1096224029
 GameObject:
   m_ObjectHideFlags: 0
@@ -9849,7 +9855,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 232
+    m_FontSize: 217
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -9860,7 +9866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ambrosil
+  m_Text: Jaringan Epidermis
 --- !u!222 &1113281570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10224,7 +10230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Monokotil
+  m_Text: Jaringan Meristem
 --- !u!222 &1167953449
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10603,7 +10609,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 165658708}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -10808,12 +10814,12 @@ RectTransform:
   m_LocalScale: {x: 0.34249875, y: 0.34249875, z: 0.34249875}
   m_Children: []
   m_Father: {fileID: 733582473}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0037594363, y: -387}
-  m_SizeDelta: {x: 2865.6, y: 2100.3}
+  m_AnchoredPosition: {x: 0.0037594363, y: -595.2}
+  m_SizeDelta: {x: 2865.6, y: 884.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252338250
 MonoBehaviour:
@@ -10837,7 +10843,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 252
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -10848,10 +10854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pada tumbuhan monokotil daun kelopak, mahkota, dan benagsari pada bunga
-    berkelipatan ?
-
-'
+  m_Text: '"?" merupakan jaringan pengangkut air dan mineral'
 --- !u!222 &1252338251
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10955,7 +10958,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 545616745}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -11051,7 +11054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1278724091
 GameObject:
   m_ObjectHideFlags: 0
@@ -11348,10 +11351,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 182
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -11359,7 +11362,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mobil
+  m_Text: Endodermis
 --- !u!222 &1326326043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11619,7 +11622,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 216
+    m_FontSize: 210
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -11630,7 +11633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Generatif
+  m_Text: Jaringan Epidermis
 --- !u!222 &1363947259
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11848,7 +11851,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 279
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -11859,7 +11862,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.83
-  m_Text: Bakal Biji
+  m_Text: Sisik
 --- !u!222 &1427673663
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11963,7 +11966,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 795073554}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -12059,7 +12062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
+  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
 --- !u!1 &1468719175
 GameObject:
   m_ObjectHideFlags: 0
@@ -12269,7 +12272,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 188
+    m_FontSize: 246
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -12280,7 +12283,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Konservatif
+  m_Text: Kelopak Bunga
 --- !u!222 &1517666168
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12551,8 +12554,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jenis akar yang biasa ditemui pada tumbuhan Monokotil seperti Padi dan
-    Jagung adalah ?
+  m_Text: Jaringan yang berfungsi untuk melindungi jaringan dalam daun adalah ?
 --- !u!222 &1537757209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12647,7 +12649,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 733582473}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -12751,10 +12753,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 255
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -12762,7 +12764,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Di daun, tempat terjadinya fotosintesis pada jaringan ?
+  m_Text: Jaringan yang berfungsi untuk menyokong tumbuhan yang muda dan memiliki
+    penebalan pada dinding selnya tapi tidak merata adalah ?
 --- !u!222 &1574968565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13222,7 +13225,7 @@ RectTransform:
   m_Children:
   - {fileID: 12034571}
   m_Father: {fileID: 165658708}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -13485,7 +13488,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 165658708}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -13792,7 +13795,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tunggang
+  m_Text: Epidermis
 --- !u!222 &1673671281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13871,7 +13874,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4-5
+  m_Text: Floem
 --- !u!222 &1719492689
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13910,7 +13913,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 733582473}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -14025,7 +14028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Korteks
+  m_Text: Kapiler
 --- !u!222 &1750857691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14033,6 +14036,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750857688}
+  m_CullTransparentMesh: 1
+--- !u!1 &1774581203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774581204}
+  - component: {fileID: 1774581206}
+  - component: {fileID: 1774581205}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1774581204
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774581203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_Children: []
+  m_Father: {fileID: 158578954}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -281}
+  m_SizeDelta: {x: 1000, y: 1000}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1774581205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774581203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9fc72e1e2b89d03428c90fd3caa99cdd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1774581206
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774581203}
   m_CullTransparentMesh: 1
 --- !u!1 &1799050337
 GameObject:
@@ -14093,7 +14171,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 249
+    m_FontSize: 212
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -14104,7 +14182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Kutikula
+  m_Text: Menyebar
 --- !u!222 &1799050340
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14147,7 +14225,7 @@ RectTransform:
   m_Children:
   - {fileID: 1719492687}
   m_Father: {fileID: 733582473}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -14527,7 +14605,7 @@ RectTransform:
   m_LocalScale: {x: 1.131068, y: 1.131068, z: 1.131068}
   m_Children: []
   m_Father: {fileID: 733582473}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14781,7 +14859,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 268
+    m_FontSize: 253
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -14792,7 +14870,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Organ
+  m_Text: Kutikula
 --- !u!222 &1853835974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14989,7 +15067,7 @@ RectTransform:
   m_LocalScale: {x: 1.131165, y: 1.131165, z: 1.131165}
   m_Children: []
   m_Father: {fileID: 158578954}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -15093,7 +15171,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 300
+    m_FontSize: 209
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -15104,7 +15182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Xilem
+  m_Text: Beraturan
 --- !u!222 &1909889230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15250,7 +15328,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 220
+    m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -15261,7 +15339,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jaringan
+  m_Text: Xilem
 --- !u!222 &1916745157
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15365,7 +15443,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 795073554}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -15461,7 +15539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &1919099680
 GameObject:
   m_ObjectHideFlags: 0
@@ -15496,7 +15574,7 @@ RectTransform:
   m_Children:
   - {fileID: 1113281568}
   m_Father: {fileID: 165658708}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -15681,7 +15759,7 @@ RectTransform:
   m_GameObject: {fileID: 1944291053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.36650485, y: 0.36650485, z: 0.36650485}
+  m_LocalScale: {x: 0.3481796, y: 0.3481796, z: 0.3481796}
   m_Children: []
   m_Father: {fileID: 545616748}
   m_RootOrder: 0
@@ -15724,9 +15802,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bunga, buah, dan biji termasuk dalam
-
-    Organ ?'
+  m_Text: Jaringan yang sel - selnya membelah secara aktif dan menyebabkan pertumbuhan
+    adalah ?
 --- !u!222 &1944291056
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15905,7 +15982,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 497337535}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -16001,7 +16078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &2003771458
 GameObject:
   m_ObjectHideFlags: 0
@@ -16036,8 +16113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0037594363, y: -605}
-  m_SizeDelta: {x: 2865.6, y: 1031.6}
+  m_AnchoredPosition: {x: 0.0037594363, y: -368.8}
+  m_SizeDelta: {x: 2865.6, y: 2487.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003771460
 MonoBehaviour:
@@ -16072,9 +16149,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bunga diatas merupakan tumbuhan ?
-
-'
+  m_Text: untuk membantu fotosintesis jaringan parenkim pada daun dapat berdiferensasi
+    menjadi ?
 --- !u!222 &2003771461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16305,7 +16381,7 @@ RectTransform:
   m_LocalScale: {x: 1.131165, y: 1.131165, z: 1.131165}
   m_Children: []
   m_Father: {fileID: 158578954}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16445,7 +16521,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 1881157401}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -16541,7 +16617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 799665303}
-  ClickSound: {fileID: 8300000, guid: 40528e1a0a4755c4bba41d90f2ff1879, type: 3}
+  ClickSound: {fileID: 8300000, guid: f571e734174a74a4a88539299f95d619, type: 3}
 --- !u!1 &2040411678
 GameObject:
   m_ObjectHideFlags: 0
@@ -16676,7 +16752,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 239
+    m_FontSize: 269
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -16687,7 +16763,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Panel Surya
+  m_Text: Klorofil
 --- !u!222 &2062092383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16755,7 +16831,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9dba6137803740a4b843411b68195fa2, type: 3}
-    m_FontSize: 210
+    m_FontSize: 224
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -16766,7 +16842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Epidermis
+  m_Text: Jaringan Kolenkim
 --- !u!222 &2071436671
 CanvasRenderer:
   m_ObjectHideFlags: 0

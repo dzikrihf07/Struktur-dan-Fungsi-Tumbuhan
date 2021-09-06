@@ -1102,7 +1102,7 @@ MonoBehaviour:
     Kelopak bunga berfungsi untuk melindungi bagian dalam bunga,
     khususnya pada bunga yang masih kuncup.
 
-    
+
 
     Mahkota Bunga (Corolla)
 
@@ -1111,7 +1111,7 @@ MonoBehaviour:
     lebih besar dari kelopaknya dan mempunyai warna yang beraneka ragam. Warna yang
     bervariasi tersebut berfungsi untuk menarik perhatian serangga.
 
-    
+
 
     Benang
     Sari
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     Tangkai sarinya berfungsi sebagai penyokong kepala sari. Di dalam kotak sari
     terdapat serbuk sari yang mengandung gamet jantan.
 
-    
+
 
     Putik (Pistilium)
 
@@ -1130,7 +1130,7 @@ MonoBehaviour:
     merupakan organ reproduksi betina yang dimiliki oleh tumbuhan yang terdapat pada
     bagian pusat (tengah) bunga.
 
-    
+
 
 
 '
@@ -11200,7 +11200,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1099604805}
   m_Direction: 2
   m_Value: 1.0000001
-  m_Size: 0.58586603
+  m_Size: 0.41344878
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -15990,7 +15990,7 @@ RectTransform:
   m_Father: {fileID: 1270807131}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.41413397}
+  m_AnchorMin: {x: 0, y: 0.5865512}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -27651,7 +27651,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jaringan parenkim pada umbi kentang
+  m_Text: Jaringan parenkim pada daun
 --- !u!222 &2010204877
 CanvasRenderer:
   m_ObjectHideFlags: 0
