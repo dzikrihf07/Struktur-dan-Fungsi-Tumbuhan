@@ -13204,7 +13204,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Batang memiliki fungsi untuk menopang bagian - bagian tumbuhan dan sebagai
-    jalur distribuso air dan mineral. '
+    jalur distribusi air dan mineral. '
 --- !u!222 &944364799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19728,7 +19728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Umumnya daun memiliki ciri - ciri berwarna hijau (Zar Klorofil) dan berbentuk
+  m_Text: Umumnya daun memiliki ciri - ciri berwarna hijau (Zat Klorofil) dan berbentuk
     tipis melebar.
 --- !u!222 &1347085974
 CanvasRenderer:
@@ -21936,8 +21936,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 633877307}
   m_HandleRect: {fileID: 633877306}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.4447314
+  m_Value: 1.0000001
+  m_Size: 0.44473144
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
